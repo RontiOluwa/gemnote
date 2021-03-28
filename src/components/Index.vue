@@ -37,16 +37,18 @@
                     </div>
                     <div class="trending">
                         <div class="trending-box">
-                          <p>Trending gifts in your store</p>
+                          <a>Trending gifts in your store</a>
+                          <button class="trending-btn"> Send a gift </button>
                           <div class="trend-content">
                             <div class="trending-flex">
                                 <img class="trending-item" src="../assets/img/shirt.png"/>
                                 <img class="trending-item" src="../assets/img/bag.png"/>
                                 <img class="trending-item" src="../assets/img/collection.png"/>
                                 <img class="trending-item" src="../assets/img/drink.png"/>
-                            </div>
-                            <div class="trending-btn">
-                                <button> Send a gift </button>
+                                <img class="trending-item" src="../assets/img/bag.png"/>
+                                <img class="trending-item" src="../assets/img/drink.png"/>
+                                <img class="trending-item" src="../assets/img/shirt.png"/>
+                                <img class="trending-item" src="../assets/img/collection.png"/>
                             </div>
                           </div>
                         </div>
@@ -97,8 +99,7 @@ export default {
         {hours: 3200, production: 2541, year: 'Sept'},
         {hours: 3800, production: 2541, year: 'Oct'},
         {hours: 2300, production: 2541, year: 'Nov'},
-        {hours: 1000, production: 2541, year: 'Dec'},
-        {hours: 1500, production: 2541, year: ''}
+        {hours: 1000, production: 2541, year: 'Dec'}
       ],
       chart_config: {
         key: 'year',
@@ -108,7 +109,7 @@ export default {
           yTicks: 6
         },
         color: {
-          default: '#dfdfdf',
+          default: '#24292c',
           current: '#41B882'
         }
       }
